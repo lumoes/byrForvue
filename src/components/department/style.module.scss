@@ -1,0 +1,33 @@
+.TechBG {
+  writing-mode: vertical-lr;
+  text-orientation: mixed;
+  user-select: none;
+  max-height: 568px;
+  overflow-y: hidden;
+  p {
+    color: rgba(0, 103, 209, 0.16);
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 134.5%;
+    letter-spacing: 0.2px;
+    white-space: nowrap;
+  }
+}
+.BlurBG {
+  @apply bg-[#F5F5F5]/50 backdrop-blur-sm;
+}
+.ProductBG {
+  background-image: url('~@/assets/images/departments/product/product-bg.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-size: 2419px 1524px;
+}
+.MediaBG {
+  background-image: url('~@/assets/images/departments/media/star-bg.svg');
+  background-position-x: center;
+  background-position-y: top;
+  background-repeat: repeat-y;
+  @apply bg-[520px_auto] sm:bg-[820px_auto] lg:bg-[960px_auto];
+}
